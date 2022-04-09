@@ -1,0 +1,8 @@
+{
+  "name": "@purebase/ui",
+  "version": "1.0.0",
+  "dependencies": {
+    "@purebase/utils": "^1.0.0"
+  },
+  "license": "MIT"
+}

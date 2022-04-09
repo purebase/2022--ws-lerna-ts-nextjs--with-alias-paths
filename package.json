@@ -1,0 +1,25 @@
+{
+  "name": "@purebase/workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run --parallel build",
+    "app:build": "lerna run --scope={@purebase/utils,@purebase/app} build",
+    "app:start": "lerna run --scope @purebase/app start",
+    "pretify": "prettier --write ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "jest": "^27.5.1",
+    "lerna": "3.22.1",
+    "prettier": "^2.6.2",
+    "tsconfig-paths": "3.14.1",
+    "typescript": "^4.6.3"
+  },
+  "license": "MIT"
+}
