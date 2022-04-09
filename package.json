@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "lerna run dev",
     "build": "lerna run --parallel build",
-    "app:build": "lerna run --scope={@purebase/utils,@purebase/app} build",
+    "app:build": "lerna run --scope={@shared/io,@purebase/app} build",
     "app:start": "lerna run --scope @purebase/app start",
     "pretify": "prettier --write ."
   },

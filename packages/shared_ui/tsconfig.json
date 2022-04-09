@@ -8,16 +8,16 @@
     "target": "es2017",
     "isolatedModules": true,
     "incremental": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {
+      "@purebase/utils": ["../utils/src"],
+      "@purebase/utils/*": ["../utils/src/*"]
+    }
   },
   "exclude": [
-    "dist",
-    ".next",
-    "out",
-    "next.config.js"
+    "dist"
   ],
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ]

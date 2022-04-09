@@ -1,0 +1,13 @@
+{
+  "name": "@shared/ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@shared/io": "^1.0.0"
+  },
+  "license": "MIT"
+}

@@ -13,11 +13,7 @@ solution.
 
 More detail you can find [here](https://webman.pro/blog/lerna-monorepo-typescript-react-node-worklow/#tsconfigpaths--lerna--symlinks).
 
-Monorepo consists of 3 packages:
-
-- [@purebase/app](./packages/app)
-- [@purebase/utils](./packages/utils)
-- [@purebase/ui](./packages/ui)
+Monorepo consists of multiple packages:
 
 Install it and run:
 

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Button from '@purebase/ui/Button';
+import Button from '@shared/ui/Button';
 import CustomButton from 'components/CustomButton';
-import logger from '@purebase/utils/logger';
+import logger from '@shared/io/logger';
 
 const IndexPage = () => {
   useEffect(() => {

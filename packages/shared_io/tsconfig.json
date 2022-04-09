@@ -10,5 +10,11 @@
     "rootDir": "src",
     "jsx": "react-jsx"
   },
-  "exclude": ["dist"]
+  "exclude": [
+    "dist"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }

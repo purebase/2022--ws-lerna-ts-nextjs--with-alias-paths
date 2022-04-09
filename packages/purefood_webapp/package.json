@@ -1,5 +1,5 @@
 {
-  "name": "@purebase/app",
+  "name": "@purefood/webapp",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon",
@@ -8,8 +8,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "@purebase/ui": "^1.0.0",
-    "@purebase/utils": "^1.0.0",
+    "@shared/ui": "^1.0.0",
+    "@shared/io": "^1.0.0",
     "cross-env": "7.0.3",
     "next": "^12.1.4",
     "react": "17.0.2",

@@ -24,12 +24,13 @@
     "target": "es5",
     "downlevelIteration": true,
     "lib": ["dom", "es2017"],
-    "strict": true,
-    "paths": {
-      "@purebase/ui": ["../ui/src"],
-      "@purebase/ui/*": ["../ui/src/*"],
-      "@purebase/utils": ["../utils/src"],
-      "@purebase/utils/*": ["../utils/src/*"]
-    }
-  }
+    "strict": true
+  },
+  "exclude": [
+    "dist"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
