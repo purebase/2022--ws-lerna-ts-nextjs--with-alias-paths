@@ -1,6 +1,8 @@
 {
   "packages": [
-    "packages/**/*"
+    "packages/purefood/webapp",
+    "packages/shared_io",
+    "packages/shared_ui"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,

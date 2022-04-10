@@ -2,7 +2,9 @@
   "name": "@purebase/workspace",
   "private": true,
   "workspaces": [
-    "packages/**/*"
+    "packages/purefood/webapp",
+    "packages/shared_io",
+    "packages/shared_ui"
   ],
   "scripts": {
     "dev": "lerna run dev",

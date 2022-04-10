@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig",
+  "extends": "../../../tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
     "module": "esnext",
@@ -10,10 +10,10 @@
     "incremental": true,
     "jsx": "preserve",
     "paths": {
-      "@shared/ui": ["../shared_ui/src"],
-      "@shared/ui/*": ["../shared_ui/src/*"],
-      "@shared/io": ["../shared_io/src"],
-      "@shared/io/*": ["../shared_io/src/*"]
+      "@shared/ui": ["../../shared_ui/src"],
+      "@shared/ui/*": ["../../shared_ui/src/*"],
+      "@shared/io": ["../../shared_io/src"],
+      "@shared/io/*": ["../../shared_io/src/*"]
     }
   },
   "exclude": [
